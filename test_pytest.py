@@ -1,5 +1,5 @@
 def fibo(n):
-    # Outputs a list of numbers up to and including the given number: n (if n is a fibonacci number)
+    # Outputs a list of numbers up to and including the given number (if n is a fibonacci number)
     a, b = 0, 1
     list = []
     while a <= n:
@@ -18,4 +18,3 @@ def test_fibo_9():
 
 def test_fibo_13():
     assert fibo(13) == [0, 1, 1, 2, 3, 5, 8, 13]
-
