@@ -1,10 +1,8 @@
 import requests
+def getXFrameOptions(url):
+    r = requests.get(url)
+    return dict(r.headers).get("X-Frame-Options")
 
-def test_gitevents():
-    r = requests.get('https://api.github.com/events')
-    assert r.status_code == 200
-
-def test_XFrameOptions():
+def test_XFrameOptionsOWASP():
     # Checking that OWASP.org sets the X-Frame-Options header correctly to deny clickjacking
-    r = requests.get('https://www.owasp.org/')
-    assert dict(r.headers).get("X-Frame-Options") == 'DENY'
+    assert getXFrameOptions('https://www.owasp.org/') == 'DENY'
