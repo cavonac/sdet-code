@@ -2,7 +2,7 @@
 Demonstration of code that would be useful for SDETs to learn
 
 ## Python
-Learn Python from https://www.python.org/. Some data structures include <i>lists</i>, <i>dictionaries</i>, <i>tuples</i>, and <i>sets</i>. See https://perso.limsi.fr/pointal/python:memento for a cheatsheet on Python. 
+Learn Python from https://www.python.org/. Some data structures include <i>lists</i>, <i>dictionaries</i>, <i>tuples</i>, and <i>sets</i>. See <a href="https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf">this pdf</a> for a cheatsheet on Python. 
 
 ### PyTest
 See https://www.pytest.org/. Installation may be required:
