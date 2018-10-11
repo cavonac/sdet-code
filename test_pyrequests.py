@@ -19,8 +19,8 @@ def test_XFrameOptionsOWASP():
     # Checking that OWASP.org sets the X-Frame-Options header correctly to deny clickjacking
     assert getXFrameOptions('https://owasp.org') == 'DENY'
 
-def test_XXssProtection():
+def test_XXssProtectionOWASP():
     assert getXXssProtection('https://owasp.org') != None
 
-def test_XContentTypeOptions():
+def test_XContentTypeOptionsOWASP():
     assert getXContentTypeOptions('https://owasp.org') == 'nosniff'
