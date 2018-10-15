@@ -18,6 +18,6 @@ def test_linear_search_number():
     assert linear_search(my_list, 20) == 2
 
 
-def test_linear_search_notfound():
+def test_linear_search_not_found():
     my_list = [1, "a", 20]
     assert linear_search(my_list, 0) is None
