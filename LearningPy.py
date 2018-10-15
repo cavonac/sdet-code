@@ -1,5 +1,5 @@
 def fibonacci(n):
-    # Outputs a list of numbers up to and including the given number (if n is a fibonacci number)
+    """ Outputs a list of numbers up to and including the given number (if n is a fibonacci number) """
     a, b = 0, 1
     my_list = []
     while a <= n:
