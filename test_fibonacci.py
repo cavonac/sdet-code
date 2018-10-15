@@ -4,7 +4,7 @@ import pytest
 def fibonacci(n):
     """ Outputs a list of numbers up to and including the given number (if it is a fibonacci number) """
     if n < 0:
-        raise ValueError("Invalid input", n)
+        raise ValueError("Invalid input, must be a positive integer", n)
 
     a, b = 0, 1
     my_list = []
