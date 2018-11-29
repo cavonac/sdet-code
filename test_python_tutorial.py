@@ -1,14 +1,18 @@
 # A comment, works only for this line
+"""This is a quick summary line with no spaces"""
 
+""" 
+This is the summary line in a multiline comment
 
-""" This is a multiline quote
+The rest contains the description of a function
     It comments everything between the three quotes
 """
 
 # A word about style: 
 # -  Python functions and variables are usually lowercase
-# -  No one uses multiline quotes except for documentation inside functions
-# -  Python is whitespace sensitive! 
+# -  A space in a function name or variable contains an underscore
+# -  Use multiline quotes for documentation inside functions
+# -  Python is whitespace sensitive!
 # -  Definitions blocks are followed by double lines, such as this:
 
 
