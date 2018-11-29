@@ -1,8 +1,8 @@
 import pytest
 
 
-def fibonacci(n):
-    """ Outputs a list of numbers up to and including the given number (if it is a fibonacci number) """
+def fibonacci(n: int):
+    """Outputs a list of fibonacci numbers up to a given number n"""
     if n < 0:
         raise ValueError("Invalid input, must be a positive integer", n)
 
@@ -15,7 +15,7 @@ def fibonacci(n):
 
 
 def is_fibonacci(n):
-    """ Indicates if a given number is a fibonacci number """
+    """Indicates if a given number is a fibonacci number"""
     # Quick check for negatives
     if n < 0:
         return False
