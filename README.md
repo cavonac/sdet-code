@@ -1,5 +1,5 @@
 # sdet-code
-Demonstration of code that would be useful for SDETs to learn. This file should be located at https://github.com/cavonac/sdet-code.git
+This file should be located at https://github.com/cavonac/sdet-code.git 
 
 ## VSCode
 Download VS Code for most platforms: https://code.visualstudio.com/Download
