@@ -1,6 +1,9 @@
 # sdet-code
 Demonstration of code that would be useful for SDETs to learn
 
+## VSCode
+Download VS Code for most platforms: https://code.visualstudio.com/Download
+
 ## Python
 Learn Python from https://www.python.org/. Some data structures include <i>lists</i>, <i>dictionaries</i>, <i>tuples</i>, and <i>sets</i>. See <a href="https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf">this pdf</a> for a cheatsheet on Python. 
 
