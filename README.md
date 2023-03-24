@@ -1,8 +1,9 @@
 # sdet-code
 This file should be located at https://github.com/cavonac/sdet-code.git 
 
-## VSCode
+## VSCode and Azure Data Studio
 Download VS Code for most platforms: https://code.visualstudio.com/Download
+ADS: https://aka.ms/azuredatastudio
 
 ## Python
 Learn Python from https://www.python.org/. Some data structures include <i>lists</i>, <i>dictionaries</i>, <i>tuples</i>, and <i>sets</i>. See <a href="https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf">this pdf</a> for a cheatsheet on Python. 
