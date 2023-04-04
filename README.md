@@ -2,18 +2,16 @@
 This repo should be located at https://github.com/cavonac/sdet-code.git. 
 
 ## In This Repo
-- This repository only assumes you know how to follow a link. 
-- An explanation is provided because not everyone knows what files to look at first.
 
 | Link | Description |
 | ---- | ----------- |
-| .gitignore | A gitignore file specifies intentionally untracked files that Git should ignore. 
+| .gitignore | A gitignore file specifies intentionally untracked files that Git should ignore. This is useful for keeping local copies of config files for modification between environments or clients.
 | README.md | You can add a README file to a repository to communicate important information about your project. A README communicates expectations for your project and helps you manage contributions.
 [SQL Learning Notebook](SqlLearning.ipynb) | Example SQL queries to understand and possibly execute with some setup required.
 |[Python Programming Notebook](PythonProgramming.ipynb) | Python notebook with example definitions (sames as methods, functions, operations, etc.) for various tasks along with some sample PyTests.
 | [Python - Fibonacci](test_fibonacci.py) | Sample Python code to create and verify numbers of the Fibonacci sequence
 | [Python - String Challenge](test_string_challenges.py) | Example linear search algorithm and test cases
-| [Python - Web Requests](test_web_requests.py) | Testing for OWASP recommended headers.
+| [Python - Web Requests](test_web_requests.py) | First look at real-world testing for OWASP recommended headers on owasp.org
 
 ## Recommended Links
 | Link | Description |
