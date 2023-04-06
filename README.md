@@ -20,11 +20,11 @@ This repo should be located at https://github.com/cavonac/sdet-code.git.
 | [Python cheatsheet](https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf) | Cheatsheet on Python (2 pages). 
 | [Download Git](https://git-scm.com/downloads) | Source control management (SCM) application that synchronizes local files and folders with a central remote repository using a modern branching model to create, merge, or delete lines of code in development.
 | [Azure Data Studio (ADS)](https://aka.ms/azuredatastudio) | A cross-platform database tool for data professionals using on-premises and cloud data platforms with IntelliSense, code snippets, source control integration, and an integrated terminal. It's engineered with the data platform user in mind, with built-in charting of query result sets and customizable dashboards. 
-| |![](ads.png)
+| |![](img/ads.png)
 | [Download Visual Studio Code (Code)](https://code.visualstudio.com/Download) | Visual Studio Code is a streamlined code editor with support for development operations like debugging, task running, and version control. 
-| |![](code.png)
+| |![](img/code.png)
 | [GitHub Desktop](https://desktop.github.com) | Simplifies your development workflow using Git
-| | ![](ghd.png)
+| | ![](img/ghd.png)
 | [Git Cheatsheet](https://training.github.com/downloads/github-git-cheat-sheet/) | Refer to the basic Git commands used often
 |[SQL Server Central](https://www.sqlservercentral.com/articles/getting-comfortable-writing-code-in-azure-data-studio) | Getting comfortable writing code in Azure Data Studio
 | [Markdown Syntax](https://www.markdownguide.org/basic-syntax) | Guide for authoring text using markdown (like this README.md file)
