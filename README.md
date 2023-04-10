@@ -1,5 +1,5 @@
 # sdet-code
-This repo should be located at https://github.com/cavonac/sdet-code.git. 
+This repo should be located at [https://github.com/cavonac/sdet-code.git](https://github.com/cavonac/sdet-code.git)
 
 The purpose of this repository is to provide a novice **software development engineer in test** (SDET) with content for self-studying programming and data langauges. SDETs have a hybrid skillset which includes testing, programming (or software development), DevOps, and database administration. SDETs typically create test automation to improve the development-test-release software cycle.
 
