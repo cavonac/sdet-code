@@ -1,7 +1,7 @@
 # sdet-code
 This repo should be located at https://github.com/cavonac/sdet-code.git. 
 
-The purpose of this repository is to provide a novice **software development engineer in test** (SDET) with content for self-studying programming and data langauges. SDETs have a hybrid skillset which includes testing, programming (or software development), DevOps, system administration, and databases. SDETs typically create test automation to improve the development-test-release software cycle.
+The purpose of this repository is to provide a novice **software development engineer in test** (SDET) with content for self-studying programming and data langauges. SDETs have a hybrid skillset which includes testing, programming (or software development), DevOps, and database administration. SDETs typically create test automation to improve the development-test-release software cycle.
 
 ## In This Repo
 
@@ -34,4 +34,4 @@ The purpose of this repository is to provide a novice **software development eng
 | [OWASP](https://owasp.org) | Open Web Application Security Project is a nonprofit foundation that works to improve the security of software.
 
 # Contributions
-Contributing to this repo is welcomed in forms of issues or code. Create a separate branch and merge your code contribution to **main**.
+Contributing to this repo is welcomed in forms of issues or code. Create a separate branch and merge your code contribution to **main** with a Pull Request.
