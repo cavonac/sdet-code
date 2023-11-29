@@ -22,7 +22,6 @@ The purpose of this repository is to provide a novice **software development eng
 | [Python cheatsheet](https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf) | Cheatsheet on Python (2 pages). 
 | [Download Git](https://git-scm.com/downloads) | Source control management (SCM) application that synchronizes local files and folders with a central remote repository using a modern branching model to create, merge, or delete lines of code in development.
 | [Azure Data Studio (ADS)](https://aka.ms/azuredatastudio) | A cross-platform database tool for data professionals using on-premises and cloud data platforms with IntelliSense, code snippets, source control integration, and an integrated terminal. It's engineered with the data platform user in mind, with built-in charting of query result sets and customizable dashboards. 
-| |![](img/ads.png)
 | [Download Visual Studio Code (Code)](https://code.visualstudio.com/Download) | Visual Studio Code is a streamlined code editor with support for development operations like debugging, task running, and version control. 
 | |![](img/code.png)
 | [GitHub Desktop](https://desktop.github.com) | Simplifies your development workflow using Git
