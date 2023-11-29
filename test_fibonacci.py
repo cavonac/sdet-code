@@ -1,7 +1,44 @@
 import pytest
 
 
-def fibonacci(n: int):
+## Naive solution for fibonacci function, recursive solution
+## This is not a good solution, as it is very slow for large numbers
+## and it is not very memory efficient
+## This is a good example of a bad solution
+## Time complexity is O(2^n) and space complexity is O(n)
+def fib_recursive(n: int):
+    """Outputs a list of fibonacci numbers up to a given number n"""
+    if n < 0:
+        raise ValueError("Invalid input, must be a positive integer", n)
+    
+    if n <= 2:
+        result = 1
+    else:
+        result = fib_recursive(n - 1) + fib_recursive(n - 2)
+    return result
+
+
+## Dynamic programming solution for fibonacci function, recursive solution
+## This is a better solution, as it is faster and more memory efficient
+## Time complexity is O(n) and space complexity is O(n)
+def fib_dynamic(n: int, memo: dict):
+    """Outputs a list of fibonacci numbers up to a given number n"""
+    if n < 0:
+        raise ValueError("Invalid input, must be a positive integer", n)
+    
+    if n in memo:
+        return memo[n]
+    
+    if n <= 2:
+        result = 1
+    else:
+        result = fib_dynamic(n - 1, memo) + fib_dynamic(n - 2, memo)
+    memo[n] = result
+    return result
+
+
+## Alternative solution for returning a list of fibonacci, linear solution
+def get_fibonacci_list(n: int):
     """Outputs a list of fibonacci numbers up to a given number n"""
     if n < 0:
         raise ValueError("Invalid input, must be a positive integer", n)
@@ -20,7 +57,7 @@ def is_fibonacci(n):
     if n < 0:
         return False
 
-    fib_list = fibonacci(n)
+    fib_list = get_fibonacci_list(n)
     if fib_list[-1] == n:
         return True
     else:
@@ -29,24 +66,24 @@ def is_fibonacci(n):
 
 # PyTest tests
 def test_fibonacci_1():
-    assert fibonacci(1) == [0, 1, 1]
+    assert get_fibonacci_list(1) == [0, 1, 1]
 
 
 def test_fibonacci_9():
-    assert fibonacci(9) == [0, 1, 1, 2, 3, 5, 8]
+    assert get_fibonacci_list(9) == [0, 1, 1, 2, 3, 5, 8]
 
 
 def test_fibonacci_13():
-    assert fibonacci(13) == [0, 1, 1, 2, 3, 5, 8, 13]
+    assert get_fibonacci_list(13) == [0, 1, 1, 2, 3, 5, 8, 13]
 
 
 def test_fibonacci_negative():
     with pytest.raises(ValueError):
-        fibonacci(-1)
+        get_fibonacci_list(-1)
 
 
 def test_is_fibonacci_0():
-    assert fibonacci(0)
+    assert get_fibonacci_list(0)
 
 
 def test_is_fibonacci_1():
@@ -63,3 +100,7 @@ def test_is_fibonacci_14():
 
 def test_is_fibonacci_negative():
     assert is_fibonacci(-1) is False
+
+
+def test_fib_recursive_1():
+    assert fib_recursive(1) == 1
