@@ -8,7 +8,7 @@ using System.Diagnostics;
 
 namespace FruitWebApp.Pages
 {
-	public class DeleteModel : PageModel
+    public class DeleteModel : PageModel
     {
         // IHttpClientFactory set using dependency injection 
         private readonly IHttpClientFactory _httpClientFactory;
@@ -37,12 +37,33 @@ namespace FruitWebApp.Pages
                 FruitModels = await JsonSerializer.DeserializeAsync<FruitModel>(contentStream);
             }
         }
-		
 
-		// Begin DELETE operation code
-        
+
+        // Begin DELETE operation code
+        public async Task<IActionResult> OnPost()
+        {
+            // Create the HTTP client using the FruitAPI named factory
+            var httpClient = _httpClientFactory.CreateClient("FruitAPI");
+
+            // Appends the data Id for deletion to the base address and performs the operation
+            using HttpResponseMessage response = await httpClient.DeleteAsync(FruitModels.id.ToString());
+
+            // Return to the home (Index) page and add a temporary success/failure 
+            // message to the page.
+            if (response.IsSuccessStatusCode)
+            {
+                TempData["success"] = "Data was deleted successfully.";
+                return RedirectToPage("Index");
+            }
+            else
+            {
+                TempData["failure"] = "Operation was not successful";
+                return RedirectToPage("Index");
+            }
+
+        }
         // End DELETE operation code
 
-	}
+    }
 }
 
