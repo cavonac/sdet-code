@@ -14,8 +14,7 @@ The purpose of this repository is to provide a novice **software development eng
 | [Python - Fibonacci](test_fibonacci.py) | Sample Python code to create and verify numbers of the Fibonacci sequence
 | [Python - String Challenge](test_string_challenges.py) | Example linear search algorithm and test cases
 | [Python - Web Requests](test_web_requests.py) | First look at real-world testing for OWASP recommended headers on owasp.org
-|[Python - Blockchain](test_blockchain.py) | Sample code for blockchain with dummy proof
-
+|[Python - Blockchain](test_blockchain.py) | Sample code for blockchain algorithm in Python with dummy proof-of-work algo. Blockchain is a type of distributed ledger technology that provides secure and transparent transactions, which is a key aspect in the field of cryptocurrencies8.
 
 ## Recommended Links
 | Link | Description |
