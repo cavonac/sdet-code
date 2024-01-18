@@ -10,11 +10,12 @@ The purpose of this repository is to provide a novice **software development eng
 | .gitignore | A gitignore file specifies intentionally untracked files that Git should ignore. This is useful for keeping local copies of config files for modification between environments or clients.
 | README.md | You can add a README file to a repository to communicate important information about your project. A README communicates expectations for your project and helps you manage contributions.
 [SQL Learning Notebook](SqlLearning.ipynb) | Example SQL queries to understand and possibly execute with some setup required.
-|[Python - Blockchain](test_blockchain.py) | 
 |[Python Programming Notebook](PythonProgramming.ipynb) | Python notebook with example definitions (sames as methods, functions, operations, etc.) for various tasks along with some sample PyTests.
 | [Python - Fibonacci](test_fibonacci.py) | Sample Python code to create and verify numbers of the Fibonacci sequence
 | [Python - String Challenge](test_string_challenges.py) | Example linear search algorithm and test cases
 | [Python - Web Requests](test_web_requests.py) | First look at real-world testing for OWASP recommended headers on owasp.org
+|[Python - Blockchain](test_blockchain.py) | Sample code for blockchain with dummy proof
+
 
 ## Recommended Links
 | Link | Description |
@@ -33,7 +34,7 @@ The purpose of this repository is to provide a novice **software development eng
 | [PyTest](https://www.pytest.org/) | To use, run 'pytest' from a command line and it should automatically find tests and run them from console. Installation may be required: <code>pip install -U pytest</code>. 
 | [OWASP](https://owasp.org) | Open Web Application Security Project is a nonprofit foundation that works to improve the security of software.
 
-## Blockchain Example
+## Proof of Work Algorithm in Blockchains
 Proof-of-Work (PoW) is a consensus algorithm used in blockchain networks to achieve distributed consensus and secure the network against malicious activities. The primary purpose of PoW is to ensure that participants (often referred to as miners) in the network invest computational power to validate transactions and add new blocks to the blockchain. Here's an explanation of how the PoW algorithm typically works:
 
 1. **Mining Process:**
